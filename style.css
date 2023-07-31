@@ -1,0 +1,94 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+</style>
+
+body {
+  font-family: 'Roboto', cursive;
+  background-color: #ffffff;
+  color: #100f0f;
+  text-align: center;
+  padding: 25px;
+}
+
+h1, h2, h3 {
+  font-family: "Roboto:ital";
+  color: #e76f51;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+li {
+  margin-right: 15px;
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.logo {
+  color: #436831;
+}
+.card {
+  background-color: FFFAF4;
+  padding: 32px;
+  width: 700px;
+  margin: 20px auto;
+  border-radius: 50px;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.yellow {
+  color : #e9c46a
+}
+
+a.bouton {
+  background-color: #f7f9f6;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  color: #617A55;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  padding: 8px;
+  width: 70px;
+  margin: 5px auto;
+  border-radius: 50px;
+
+}
+
+a.bouton:hover {
+  background-color: #617A55;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  color: #f7f9f6;
+  transition: 0.3s ease;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .card {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .card {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .card {
+    max-width: 250px;
+  }
+}
